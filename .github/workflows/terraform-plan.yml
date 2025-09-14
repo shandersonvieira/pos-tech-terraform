@@ -31,9 +31,6 @@ jobs:
       - name: Terraform Validate
         run: terraform validate
 
-      - name: Terraform import state
-        run: terraform import aws_s3_bucket.state fiap-soat-tc-terraform
-
       - name: Terraform Plan
         run: terraform plan -out=tfplan
 
