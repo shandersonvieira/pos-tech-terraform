@@ -14,11 +14,6 @@ data "aws_subnets" "subnets" {
   }
 }
 
-# data "aws_subnet" "subnet" {
-#   for_each = toset(data.aws_subnets.subnets.ids)
-#   id       = each.value
-# }
-
 data "aws_eks_cluster" "cluster" {
   name = aws_eks_cluster.cluster.name
 }
@@ -26,10 +21,3 @@ data "aws_eks_cluster" "cluster" {
 data "aws_eks_cluster_auth" "auth" {
   name = aws_eks_cluster.cluster.name
 }
-
-# data "kubernetes_service" "nginx_lb" {
-#   metadata {
-#     name      = "nginx-service"
-#     namespace = "nginx"
-#   }
-# }
