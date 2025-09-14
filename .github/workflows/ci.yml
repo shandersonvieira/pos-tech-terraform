@@ -61,5 +61,11 @@ jobs:
       - name: Terraform Init
         run: terraform init
 
+      - name: Baixar plano salvo
+        uses: actions/download-artifact@v4
+        with:
+          name: terraform-plan
+          path: .
+
       - name: Terraform Apply
         run: terraform apply -auto-approve tfplan
