@@ -33,9 +33,3 @@ jobs:
 
       - name: Terraform Plan
         run: terraform plan -out=tfplan
-
-      - name: Upload do plano
-        uses: actions/upload-artifact@v4
-        with:
-          name: terraform-plan
-          path: tfplan
