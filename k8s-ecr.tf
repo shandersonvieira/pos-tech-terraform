@@ -4,3 +4,8 @@ resource "aws_ecr_repository" "app" {
 
   tags = var.tags
 }
+
+
+resource "aws_ecr_repository" "api_auth_repo" {
+  name = "api_auth_repo"
+}

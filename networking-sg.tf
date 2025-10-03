@@ -14,15 +14,21 @@ resource "aws_security_group" "sg" {
     cidr_blocks = ["0.0.0.0/0"] #Abre para a internet
   }
 
+  # ingress {
+  #   from_port   = 0
+  #   to_port     = 0
+  #   protocol    = "-1" #Todos os protocolos
+  #   self        = false
+  #   cidr_blocks = ["0.0.0.0/0"] #Abre para a internet
+  #   description = "All"
+  # }
+
   #Trafego de Saida do Cluster (e serviços) para a internet
   egress {
     description = "All"
-    #Libera todas as portas
     from_port   = 0
     to_port     = 0
     protocol    = "-1"          #Todos os protocolos
     cidr_blocks = ["0.0.0.0/0"] #Abre para a internet
   }
-
-
 }
