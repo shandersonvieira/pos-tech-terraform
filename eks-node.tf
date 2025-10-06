@@ -1,11 +1,13 @@
 resource "aws_eks_node_group" "node_group" {
   cluster_name    = aws_eks_cluster.cluster.name
-  node_group_name = "nodeg-${var.projectName}"
+  node_group_name = "${var.project_name}-node-group"
   node_role_arn   = var.labRole
-  subnet_ids      = aws_subnet.subnet_public[*].id
+  subnet_ids      = data.terraform_remote_state.network.outputs.private_subnet_ids
   disk_size       = 50
   instance_types  = [var.instance_type]
-  tags            = var.tags
+  tags = {
+    Name = "${var.project_name}-eks-node-group"
+  }
 
 
   scaling_config {
