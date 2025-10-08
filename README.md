@@ -6,7 +6,7 @@ Este repositório contém a infraestrutura como código para o projeto **Fast Fo
 
 ---
 
-# Referência: [Pós Tech em Software Architecture - FIAP+Alura](https://postech.fiap.com.br/curso/software-architecture/)
+## Referência: [Pós Tech em Software Architecture - FIAP+Alura](https://postech.fiap.com.br/curso/software-architecture/)
 
 
 ## Estrutura dos Arquivos e Explicação
