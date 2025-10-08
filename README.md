@@ -8,23 +8,6 @@ Este repositório contém a infraestrutura como código para o projeto **Fast Fo
 
 ## Referência: [Pós Tech em Software Architecture - FIAP+Alura](https://postech.fiap.com.br/curso/software-architecture/)
 
-## Participantes
-
-[![philipphahmann](https://github.com/philipphahmann.png?size=100)](https://github.com/philipphahmann)
-[![shandersonvieira](https://github.com/shandersonvieira.png?size=100)](https://github.com/shandersonvieira)
-[![vinicius-ma](https://github.com/vinicius-ma.png?size=100)](https://github.com/vinicius-ma)
-[![gabrieldasilvadev](https://github.com/gabrieldasilvadev.png?size=100)](https://github.com/gabrieldasilvadev)
-
-- Nome: Bruno César Vicente da Silva Paula | RM360941 | Email: brunocesar.oc96@gmail.com
-
-- Nome: Philipp Teles Fernandes Erwin Hahmann | RM360012 | Email: hahmann96@gmail.com
-
-- Nome: Shanderson da Silva Vieira | RM362970 | Email: shanderson09@gmail.com
-
-- Nome: Vinicius Moraes Andreghetti | RM364516 | Email: vinicius.andreghetti@gmail.com
-
-- Nome: Gabriel da Silva | RM362894 | Email: gabrieldasilvaprivado1@gmail.com
-
 ---
 
 ## Estrutura dos Arquivos e Explicação
